@@ -18,3 +18,5 @@ const routing = (
     </React.StrictMode>
   </Router>
 )
+
+ReactDOM.render(routing, document.getElementById('root'))
