@@ -13,8 +13,8 @@ const routing = (
       <Header></Header>
       <Switch>
         <Route exact path='/' component={App} ></Route>
-        <Footer></Footer>
       </Switch>
+      <Footer></Footer>
     </React.StrictMode>
   </Router>
 )
