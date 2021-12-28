@@ -7,6 +7,7 @@ import App from './App';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Register from './components/register';
+import Login from './components/login';
 
 const routing = (
   <Router>
@@ -15,6 +16,7 @@ const routing = (
       <Switch>
         <Route exact path='/' component={App} ></Route>
         <Route path='/register' component={Register}></Route>
+        <Route path='/login' component={Login}></Route>
       </Switch>
       <Footer></Footer>
     </React.StrictMode>
